@@ -1,0 +1,13 @@
+{
+    "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": true,
+    "arrowParens": "always",
+    "overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+  }
+  
