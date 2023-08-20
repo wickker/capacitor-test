@@ -7,7 +7,7 @@
   import { onMount } from 'svelte'
 
   const otterApi = axios.create({
-    baseURL: 'http://10.0.2.2:9000',
+    baseURL: 'http://192.168.50.81:9000',
     //   withCredentials: true,
   })
 
@@ -16,10 +16,21 @@
       .get(`1.0/sellers/invoices`, {
         headers: {
           Cookie:
-            'otterlive-token=5613098307074932b38ad7153a3cf5d5ebcfcad07843d4a0adcc044ff7057b19cf1b9',
+            'otterlive-token=2e26af014d974760359916da87e36d5722901721b63059dd401faa5977f02bd192f9b',
         },
       })
       .then((res) => res.data)
+
+//   const otterApi = axios.create({
+//     baseURL: 'http://localhost:9000',
+//     withCredentials: true,
+//   })
+
+//   const getInvoices = (): Promise<any> =>
+//     otterApi
+//       .get(`1.0/sellers/invoices`)
+//       .then((res) => res.data)
+
 
   const res = useQuery('invoices', getInvoices)
 

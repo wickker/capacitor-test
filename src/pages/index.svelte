@@ -6,15 +6,15 @@
 
   //   const res = useQuery('pokemon', () => fetch('https://pokeapi.co/api/v2/pokemon?limit=151').then(res => res.json()))
 
-    let facebookForm: HTMLFormElement
+  let facebookForm: HTMLFormElement
 
-    function handleSubmit() {
-      const urlParams = new URL(document.location.toString()).searchParams
-      facebookForm.action = `http://localhost:9000/1.0/sellers/login?${urlParams.toString()}`
-    }
+  function handleSubmit() {
+    const urlParams = new URL(document.location.toString()).searchParams
+    facebookForm.action = `http://localhost:9000/1.0/sellers/login?${urlParams.toString()}`
+  }
 
-  Cookies.set('greeting', 'hello world') // test if js cookies library works 
-//   Cookies.set('otterlive-token', '5613098307074932b38ad7153a3cf5d5ebcfcad07843d4a0adcc044ff7057b19cf1b9')
+  Cookies.set('greeting', 'hello world') // test if js cookies library works
+  //   Cookies.set('otterlive-token', '5613098307074932b38ad7153a3cf5d5ebcfcad07843d4a0adcc044ff7057b19cf1b9')
 </script>
 
 <div>
