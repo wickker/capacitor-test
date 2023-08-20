@@ -10,20 +10,11 @@
 
     function handleSubmit() {
       const urlParams = new URL(document.location.toString()).searchParams
-      facebookForm.action = `http://10.0.2.2:9000/1.0/sellers/login?${urlParams.toString()}`
+      facebookForm.action = `http://localhost:9000/1.0/sellers/login?${urlParams.toString()}`
     }
 
-//   function submit() {
-//     const urlParams = new URL(document.location.toString()).searchParams
-//     const url = `http://localhost:9000/1.0/sellers/login?${urlParams.toString()}`
-//     CapacitorHttp.post({ url })
-//       .then((res) => {
-//         console.log('res : ', res)
-//       })
-//       .catch((err) => console.log('err : ', err))
-//   }
-
   Cookies.set('greeting', 'hello world') // test if js cookies library works 
+//   Cookies.set('otterlive-token', '5613098307074932b38ad7153a3cf5d5ebcfcad07843d4a0adcc044ff7057b19cf1b9')
 </script>
 
 <div>
@@ -31,6 +22,11 @@
   <br />
   <button on:click={() => $goto('/mess')} class="text-blue-500">
     Go to /mess
+  </button>
+  <br />
+  <br />
+  <button on:click={() => $goto('/home')} class="text-blue-500">
+    Go to /home
   </button>
   <br />
   <br />
