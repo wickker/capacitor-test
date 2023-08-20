@@ -400,6 +400,11 @@
     svelte-hmr "^0.15.3"
     vitefu "^0.2.4"
 
+"@sveltestack/svelte-query@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@sveltestack/svelte-query/-/svelte-query-1.6.0.tgz#d175863557a7abe6a8dcb0da2080a9f43ae8d1d1"
+  integrity sha512-C0wWuh6av1zu3Pzwrg6EQmX3BhDZQ4gMAdYu6Tfv4bjbEZTB00uEDz52z92IZdONh+iUKuyo0xRZ2e16k2Xifg==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
