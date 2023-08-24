@@ -20,7 +20,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@capacitor/android@^5.2.3":
+"@capacitor/android@5.2.3":
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-5.2.3.tgz#99161b1c24735bc7c7369ab465d0947347177f2c"
   integrity sha512-TqXOq5RIniMACcAckn/X84XajPP2GU4VH7Er390Ja2Y2BWSeUKgk7T8aURcwLYu2hnv+Op9eTww5MTBb3zBtmg==

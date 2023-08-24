@@ -1,11 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'com.example.app',
+  appId: 'capacitor.app',
   appName: 'capacitor',
   webDir: 'dist',
   server: {
-    androidScheme: 'https',
+    url: "http://192.168.50.81:3000",
+    cleartext: true,
   },
   plugins: {
     CapacitorHttp: {
