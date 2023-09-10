@@ -5,14 +5,12 @@ const config: CapacitorConfig = {
   appName: 'capacitor',
   webDir: 'dist',
   server: {
-    url: "http://192.168.50.81:3000",
-    cleartext: true,
+    // input your local machine ip for live reload
+    url: 'http://192.168.50.81:3000', 
+    // enable for local dev only
+    cleartext: true, 
   },
-  plugins: {
-    CapacitorHttp: {
-      enabled: true,
-    },
-  },
+  plugins: {},
 }
 
 export default config
