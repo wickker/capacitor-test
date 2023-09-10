@@ -1,4 +1,4 @@
-## Running locally
+# Running locally
 
 1. https://capacitorjs.com/docs/getting-started/environment-setup
 - When installing emulators for Android Studio, make sure to choose API 33 (API 34 is not yet supported for 'npx cap run android') e.g. Pixel 5 API 33
@@ -9,13 +9,13 @@
 
 -----
 
-# a. Running with live reload 
+## a. Running with live reload 
 
 - yarn dev
 
 - Set your local machine ip in capcaitor.config.ts
 
-# b. Running without live reload 
+## b. Running without live reload 
 
 - yarn build 
 
