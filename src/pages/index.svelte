@@ -28,6 +28,12 @@
   <br />
   <br />
 
+  <button on:click={() => $goto('/login')} class="text-blue-500">
+    Go to /login
+  </button>
+  <br />
+  <br />
+
   <div>Preference:</div>
   <input
     class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"

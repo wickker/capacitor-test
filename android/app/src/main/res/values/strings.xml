@@ -4,4 +4,7 @@
     <string name="title_activity_main">capacitor</string>
     <string name="package_name">capacitor.app</string>
     <string name="custom_url_scheme">capacitor.app</string>
+
+    <string name="facebook_app_id">646346409710129</string>
+    <string name="facebook_client_token">0a9d7fd23553e146e2c963d707e433f7</string>
 </resources>
