@@ -6,11 +6,14 @@ const config: CapacitorConfig = {
   webDir: 'dist',
   server: {
     // input your local machine ip for live reload (this is logged out when you run yarn dev)
-    url: 'http://192.168.10.147:3000', 
+    url: 'http://10.110.162.140:3001', 
     // enable for local dev only
     cleartext: true, 
   },
   plugins: {},
+  android: {
+    flavor: 'dev',
+  }
 }
 
 export default config

@@ -22,6 +22,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "environment"
+    productFlavors {
+        dev {
+            dimension "environment"
+            resValue 'string', 'facebookAppId', '646346409710129'
+            resValue 'string', 'facebookClientToken', '0a9d7fd23553e146e2c963d707e433f7'
+        }
+        qa {
+            dimension "environment"
+            resValue 'string', 'facebookAppId', '230719009336686'
+            resValue 'string', 'facebookClientToken', '2318212ab94a2820dc6190195bf5ac2f'
+        }
+    }
 }
 
 repositories {

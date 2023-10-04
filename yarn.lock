@@ -32,6 +32,11 @@
   "resolved" "https://registry.npmjs.org/@capacitor/android/-/android-5.2.3.tgz"
   "version" "5.2.3"
 
+"@capacitor/app@^5.0.6":
+  "integrity" "sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA=="
+  "resolved" "https://registry.npmjs.org/@capacitor/app/-/app-5.0.6.tgz"
+  "version" "5.0.6"
+
 "@capacitor/cli@^5.2.3":
   "integrity" "sha512-iqjOnA9fCxm+cFv5iTvxb/vElK2Z1kDpVS+N9XyD2Msyv3l3ezuOZTSvABiDoo6w6CGkj4/AUMpdT4nrZkTHTg=="
   "resolved" "https://registry.npmjs.org/@capacitor/cli/-/cli-5.2.3.tgz"
